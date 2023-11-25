@@ -1,0 +1,169 @@
+{
+  "mod_elements": [
+    {
+      "name": "Craftingboxgui",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftingboxgui"
+    },
+    {
+      "name": "Crafter",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter"
+    },
+    {
+      "name": "SecuretyCraftAditions",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "securety_craft_aditions"
+    },
+    {
+      "name": "CREATIVETABICON",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creativetabicon"
+    },
+    {
+      "name": "Crafterr",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafterr"
+    },
+    {
+      "name": "Craft",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TODOLIST",
+      "type": "code",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "todolist"
+    },
+    {
+      "name": "CrowbarRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crowbar",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar"
+    },
+    {
+      "name": "Reinforcedsteelrod",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedsteelrod"
+    },
+    {
+      "name": "Crowbarr",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crowbarr"
+    },
+    {
+      "name": "Rsr",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rsr"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.securetycraft_expantion.crafter": "Crafter",
+      "item.securetycraft_expantion.reinforcedsteelrod": "reinforced steel rod",
+      "itemGroup.tabsecurety_craft_aditions": "SecuretyCraft: Aditions",
+      "item.securetycraft_expantion.crowbar": "Crowbar",
+      "item.securetycraft_expantion.creativetabicon": "CREATIVETABICON"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "securetycraft_expantion",
+    "modName": "securetycraft expantion",
+    "version": "1.0.0",
+    "author": "admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "immersiveengineering",
+      "securitycraft"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.securetycraftexpantion",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

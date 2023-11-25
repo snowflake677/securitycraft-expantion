@@ -1,0 +1,165 @@
+{
+  "mod_elements": [
+    {
+      "name": "Craftingboxgui",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftingboxgui"
+    },
+    {
+      "name": "Crafter",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter"
+    },
+    {
+      "name": "SecuretyCraftAditions",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "securety_craft_aditions"
+    },
+    {
+      "name": "Crafterr",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafterr"
+    },
+    {
+      "name": "Craft",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TODOLIST",
+      "type": "code",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "todolist"
+    },
+    {
+      "name": "CrowbarRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crowbar",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar"
+    },
+    {
+      "name": "Reinforcedsteelrod",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedsteelrod"
+    },
+    {
+      "name": "Crowbarr",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crowbarr"
+    },
+    {
+      "name": "Rsr",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rsr"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.securitycraft_expantion.crowbar": "Crowbar",
+      "item.securitycraft_expantion.reinforcedsteelrod": "reinforced steel rod",
+      "block.securetycraft_expantion.crafter": "Crafter",
+      "item.securetycraft_expantion.reinforcedsteelrod": "reinforced steel rod",
+      "itemGroup.tabsecurety_craft_aditions": "SecurityCraft: Aditions",
+      "block.securitycraft_expantion.crafter": "Crafter",
+      "item.securetycraft_expantion.crowbar": "Crowbar",
+      "item.securetycraft_expantion.creativetabicon": "CREATIVETABICON"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "securitycraft_expantion",
+    "modName": "securitycraft expantion",
+    "version": "1.0.0",
+    "description": "adds stuff that would be useful to make a prison and can overwright securitycraft",
+    "author": "cf677",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "immersiveengineering",
+      "securitycraft"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "made it all by myself",
+    "modElementsPackage": "net.mcreator.securitycraftexpantion",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
