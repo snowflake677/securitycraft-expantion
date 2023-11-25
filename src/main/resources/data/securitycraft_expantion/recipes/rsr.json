@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "immersiveengineering:stick_steel"
+    },
+    "4": {
+      "item": "immersiveengineering:stick_steel"
+    },
+    "6": {
+      "item": "immersiveengineering:stick_steel"
+    }
+  },
+  "result": {
+    "item": "securitycraft_expantion:reinforcedsteelrod",
+    "count": 1
+  }
+}

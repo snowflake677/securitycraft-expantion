@@ -1,0 +1,3 @@
+##Edited by MCreator - User agreed with EULA inside MCreator
+#Thu Nov 23 16:18:45 CET 2023
+eula=true

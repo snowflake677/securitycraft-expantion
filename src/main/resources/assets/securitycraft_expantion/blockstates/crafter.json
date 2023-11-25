@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "securitycraft_expantion:block/crafter"
+    },
+    "facing=east": {
+      "model": "securitycraft_expantion:block/crafter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "securitycraft_expantion:block/crafter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "securitycraft_expantion:block/crafter",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="securitycraft_expantion"
+version="1.0.0"
+displayName="securitycraft expantion"
+credits="made it all by myself"
+displayURL="https://github.com/snowflake677/securitycraft-expantion"
+logoFile="logo.png"
+authors="cf677"
+description='''
+adds stuff that would be useful to make a prison and can overwright securitycraft
+'''
+
+[[dependencies.securitycraft_expantion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.securitycraft_expantion]]
+    modId="immersiveengineering"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.securitycraft_expantion]]
+    modId="securitycraft"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+

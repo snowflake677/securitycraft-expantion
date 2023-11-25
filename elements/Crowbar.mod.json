@@ -1,0 +1,32 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "crowbar",
+    "customModelName": "Normal",
+    "name": "Crowbar",
+    "specialInfo": [
+      "can brake reinforced blocks you dont own"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SecuretyCraftAditions"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "CrowbarRightclickedOnBlock"
+    }
+  }
+}

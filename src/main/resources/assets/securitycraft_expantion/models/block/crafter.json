@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "securitycraft_expantion:blocks/cs",
+    "up": "securitycraft_expantion:blocks/ct",
+    "north": "securitycraft_expantion:blocks/cs",
+    "east": "securitycraft_expantion:blocks/cs",
+    "south": "securitycraft_expantion:blocks/cs",
+    "west": "securitycraft_expantion:blocks/cs",
+    "particle": "securitycraft_expantion:blocks/cs"
+  }
+}

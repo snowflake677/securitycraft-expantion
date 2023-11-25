@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "securitycraft_expantion:reinforcedsteelrod"
+  },
+  "addition": {
+    "item": "immersiveengineering:stick_steel"
+  },
+  "result": {
+    "item": "securitycraft_expantion:crowbar"
+  }
+}
